@@ -8,6 +8,7 @@ set.seed(123)
 load("Workspaces/1. Data Generation.RData")
 
 # amputation settings
+### QUESTION: "Is het nuttig om 0.9 te varieren? Hoe is het te combineren met MAR?"
 p = 0.9
 patterns <- expand.grid(replicate(3, 0:1, simplify = F)) %>% .[2:7,]
 
