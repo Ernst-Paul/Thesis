@@ -8,7 +8,7 @@ set.seed(123)
 load("Workspaces/1. Data Generation.RData")
 
 # amputation settings
-p = 0.7
+p = 0.9
 patterns <- expand.grid(replicate(3, 0:1, simplify = F)) %>% .[2:7,]
 
 # imputation settings

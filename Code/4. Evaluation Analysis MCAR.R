@@ -35,9 +35,9 @@ analyis <- function(x) {
       upper <- fit.y.summary[-1,"97.5 %"]
       coverage <- lower < truth & truth < upper
       
+      ### QUESTION: "Kun je ook coverage berekenen van de r.squared & sigma? is het nuttig?"
+      r.squared <- pool.r.squared(fit.y)[1]
       ### QUESTION: "Is dit de correcte procedure?"
-      ### QUESTION: "Kun je ook coverage berekenen van de r.squared & sigma?"
-      r.squared <- fit.y.pool$glanced$r.squared %>% mean
       sigma <- fit.y.pool$glanced$sigma %>% mean
    }
    
