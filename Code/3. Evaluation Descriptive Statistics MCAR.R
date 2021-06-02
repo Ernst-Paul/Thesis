@@ -21,6 +21,7 @@ statistics.1 <- function(x) {
    upper <- means + interval
    coverage <- lower < truth & truth < upper
    
+   ### Functie nog uitbreiden!
    rmse <- sqrt((data - mids)^2) %>% sapply(mean)
    
    return(c(means, vars, coverage, rmse))
