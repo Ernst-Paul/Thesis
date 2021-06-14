@@ -4,26 +4,28 @@ library(MASS)
 set.seed(123)
 
 # data generation setting
-n.sim = 100
-n.rec = 10000
-mu = rep(0,3)
-cor.x1.x2 = .4
-cor.x1.x3 = .6
-cor.x2.x3 = .8
+n.sim = 10
+n.rec = 100
+mu = c(70, 5, 35)
+cov.x1.x1 = 155
+cov.x2.x2 = 0.3
+cov.x3.x3 = 50
+cov.x1.x2 = 1
+cov.x1.x3 = 25
+cov.x2.x3 = 1.5
 
 generate <- function(n) {
    # co-variance matrix
-   sigma <- matrix(c(1, cor.x1.x2, cor.x1.x3,
-                     cor.x1.x2, 1, cor.x2.x3,
-                     cor.x1.x3, cor.x2.x3, 1),
+   sigma <- matrix(c(cov.x1.x1, cov.x1.x2, cov.x1.x3,
+                     cov.x1.x2, cov.x2.x2, cov.x2.x3,
+                     cov.x1.x3, cov.x2.x3, cov.x3.x3),
                    nrow = 3, ncol = 3)
-
+   
    # generate data
    data <- mvrnorm(n = n, mu = mu, Sigma=sigma)
    
-   ### QUESTION: "Is schreef genoeg?"
-   # transform to log-normal variable 
-   data[,1] <- exp(data[,1])
+   # transform Insulin to log-normal variable 
+   data[,2] <- exp(data[,2])
    
    return(data)
 }
