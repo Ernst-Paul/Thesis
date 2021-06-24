@@ -3,10 +3,10 @@
 
 ## In short 
 
-## :notebook: Report
+## Report :notebook:
 Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error
 
-## :computer: Simulation Study
+## Simulation Study :computer: 
 * Code 
 
-## :bar_chart: Results
+## Results :bar_chart: 
