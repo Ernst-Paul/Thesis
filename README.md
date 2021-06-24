@@ -1,13 +1,12 @@
 # Hi, welcome to ... 👋
-### Ernst Paul Swens Thesis Repository
+### Ernst Paul Swens Thesis Repository 📦
 
-## In short
+## In short 
 
-## Report
+## 📓 Report
 Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error
 
-## Simulation Study
-* Report Introduction
+## 🧑‍💻 Simulation Study
 * Code 
 
-## Results
+## 📈 Results
