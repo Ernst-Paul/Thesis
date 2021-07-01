@@ -6,7 +6,6 @@
 
 ## Simulation :computer: 
 [R Code](/Simulation/)
-##
+### Results
 [Figures](/Simulation/Figures/) 
-##
 [Tables](/Simulation/Tables/)
