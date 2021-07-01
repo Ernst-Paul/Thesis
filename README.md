@@ -2,7 +2,7 @@
 <img align="right" width="250" src="/Simulation/Workspaces/img.png">
 
 ## Thesis :notebook:
-[Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error](/Report/Thesis.pdf)
+[Invalid performance evaluation of imputation algorithms: a warning against using the (root) mean squared error](/Report/Thesis.pdf)
 
 ## Simulation :computer: 
 - [R Code](/Simulation/)
