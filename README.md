@@ -1,12 +1,11 @@
 # Hi, welcome to ... :wave:  my thesis repository :package:
 <img align="right" width="250" src="/Simulation/Workspaces/img.png">
 
-## Report :notebook:
+## :notebook:
 [Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error](/Report/Thesis.pdf)
 
-## Simulation Study :computer: 
+## :computer: 
 [R Code](/Simulation/)
-
-### Results :bar_chart: 
+#
 [Figures](/Simulation/Figures/) 
 [Tables](/Simulation/Tables/)
