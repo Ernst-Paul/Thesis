@@ -1,4 +1,4 @@
-# Hi, welcome to ... :wave: My Thesis Repository :package:
+# Hi, welcome to ... :wave:  my thesis repository :package:
 <img align="right" width="250" src="/Simulation/Workspaces/img.png">
 
 ## Report :notebook:
