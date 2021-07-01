@@ -34,4 +34,4 @@ generate <- function(n) {
 data <- replicate(n.sim, generate(n = n.rec), simplify = F)
 
 # store workspace data
-#save.image(file = "Workspaces/1. Data Generation.RData")
+save.image(file = "Workspaces/1. Data Generation.RData")

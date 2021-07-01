@@ -5,7 +5,7 @@ library(mice)
 set.seed(123)
 
 # load previous work session
-#load("Workspaces/1. Data Generation.RData")
+load("Workspaces/1. Data Generation.RData")
 
 # amputation settings
 patterns <- expand.grid(replicate(3, 0:1, simplify = F)) %>% .[2:7,]
@@ -41,4 +41,4 @@ imputed.mar.7 <- lapply(data, simulate, .7, "MAR")
 
 # store workspace data
 rm(patterns)
-#save.image(file = "Workspaces/2. Simulate.RData")
+save.image(file = "Workspaces/2. Simulate.RData")

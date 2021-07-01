@@ -4,8 +4,8 @@ library(purrr)
 library(broom)
 
 # load previous work session
-#load("Workspaces/1. Data Generation.RData")
-#load("Workspaces/2. Simulate.RData")
+load("Workspaces/1. Data Generation.RData")
+load("Workspaces/2. Simulate.RData")
 
 # function to evaluate the imputed data
 analyis.imp <- function(x) {
@@ -84,3 +84,6 @@ format <- c("beta.x1"=0, "beta.x2"=0, "coverage.beta.x1"=0, "coverage.beta.x2"=0
 
 # apply function to every simulation
 analysis.true <- vapply(data, analyis.true, format) %>% as.data.frame
+
+# store workspace data
+save.image(file = "Workspaces/4. Evaluation Analysis.RData")

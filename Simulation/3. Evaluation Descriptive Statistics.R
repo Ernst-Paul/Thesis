@@ -3,8 +3,8 @@ library(tidyr)
 library(purrr)
 
 # load previous work sessions
-#load("Workspaces/1. Data Generation.RData")
-#load("Workspaces/2. Simulate.RData")
+load("Workspaces/1. Data Generation.RData")
+load("Workspaces/2. Simulate.RData")
 
 # function to calculate the imputed RMSE (credits to Stef v. Buuren)
 rmse <- function(data, imp, i) {
@@ -86,3 +86,6 @@ format <- c("mean.x1"=1, "mean.x2"=1, "mean.y"=1, "var.x1"=1, "var.x2"=1, "var.y
 # apply function to every simulation
 stat.true <- vapply(data, statistics.true, format) %>% 
    as.data.frame
+
+# store workspace data
+save.image(file = "Workspaces/3. Evaluation Descriptive Statistics.RData")
