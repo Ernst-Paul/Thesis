@@ -5,7 +5,7 @@
 [Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error](/Report/Thesis.pdf)
 
 ## Simulation :computer: 
-[R Code](/Simulation/)
+[R Code :arrow_right:](/Simulation/)
 ### Results
-[Figures](/Simulation/Figures/) 
-[Tables](/Simulation/Tables/)
+[Figures :arrow_right:](/Simulation/Figures/) 
+[Tables :arrow_right:](/Simulation/Tables/)
