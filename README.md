@@ -1,5 +1,5 @@
 # Hi, welcome to ... :wave:
-<img align="right" width="250" src="img.png">
+<img align="right" width="250" src="/Simulation/Workspaces/img.png">
 
 ### Ernst Paul Swens Thesis Repository :package:
 
