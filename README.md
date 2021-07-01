@@ -4,7 +4,7 @@
 ### Ernst Paul Swens Thesis Repository :package:
 
 ## Report :notebook:
-[Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error](https://www.overleaf.com/3149819198ytfdhydsvcrp)
+[Invalid performance evaluation of imputation algorithms:a warning against using the (root) mean squared error](Report/Thesis.png)
 
 ## Simulation Study :computer: 
 ### Results :bar_chart: 
