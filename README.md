@@ -8,5 +8,5 @@
 [R Code](/Simulation/)
 
 ### Results :bar_chart: 
-[Figures](/Simulation/Figures/) \n
+[Figures](/Simulation/Figures/) 
 [Tables](/Simulation/Tables/)
