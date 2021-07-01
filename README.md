@@ -1,7 +1,6 @@
 # Hi, welcome to ... :wave:
+<img align="right" width="200" src="img.png">
 ### Ernst Paul Swens Thesis Repository :package:
-
-<img align="right" width="100" height="100" src="img.png">
 
 ## In short 
 
