@@ -1,6 +1,8 @@
 # Hi, welcome to ... :wave:
 ### Ernst Paul Swens Thesis Repository :package:
 
+![Screenshot](img.png)
+
 ## In short 
 
 ## Report :notebook:
